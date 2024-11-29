@@ -18,8 +18,10 @@ pair_coeff * * dftd3 param.dftd3 C
 ## Description 
 
 The _mlbop_ pair style computes the machine-learning bond-order potential.  
-This pair style can be used with the pair_style dftd3 for the dispersion correction.
+This pair style can be used with the pair_style dftd3 [1] for the dispersion correction.
 
 ## Note
 This implementation was tested in LAMMPS 2 Aug 2023 version.  
 It may not work in some environments/versions.  
+
+[1] https://github.com/IKOHATA/pair_dftd3
