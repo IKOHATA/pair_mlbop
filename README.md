@@ -7,12 +7,12 @@ pair_style mlbop
 
 ## Example
 ```
-pair_style hybrid/overlay pace dftd3 pbe 12.0 8.0  
-pair_coeff * * pace Cu.yaml Cu 
+pair_style mlbop
+pair_coeff * * mlbop C.mlbop C 
 
-pair_style hybrid/overlay pace dftd3 pbe 12.0 8.0  
-pair_coeff * * pace Cu.yaml Cu 
-pair_coeff * * dftd3 param.dftd3 Cu
+pair_style hybrid/overlay mlbop dftd3 pbe 12.0 8.0  
+pair_coeff * * mlbop C.mlbop C 
+pair_coeff * * dftd3 param.dftd3 C
 ```
 
 ## Description 
