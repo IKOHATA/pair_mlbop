@@ -8,7 +8,7 @@ pair_style mlbop
 ## Example
 ```
 pair_style mlbop
-pair_coeff * * mlbop C.mlbop C 
+pair_coeff * * C.mlbop C 
 
 pair_style hybrid/overlay mlbop dftd3 pbe 12.0 8.0  
 pair_coeff * * mlbop C.mlbop C 
