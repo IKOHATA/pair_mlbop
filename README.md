@@ -24,5 +24,5 @@ This pair style can be used with the pair_style dftd3 [2] for adding the dispers
 This implementation was tested in LAMMPS 2 Aug 2023 version.  
 It may not work in some environments/versions.  
 
-[1]
+[1] arXiv:2501.11297  
 [2] https://github.com/IKOHATA/pair_dftd3
