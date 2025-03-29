@@ -17,7 +17,7 @@ pair_coeff * * dftd3 param.dftd3 C
 
 ## Description 
 
-The _mlbop_ pair style computes the machine-learning bond-order potential.  
+The _mlbop_ pair style computes the Machine-Learning Bond-Order Potential.  
 This pair style can be used with the pair_style dftd3 [1] for adding the dispersion energy term.
 
 ## Note
