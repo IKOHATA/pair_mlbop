@@ -21,7 +21,7 @@ The _mlbop_ pair style computes the Machine-Learning Bond-Order Potential [1].
 This pair style can be used with the pair_style dftd3 [2] for adding the dispersion energy term.
 
 ## Note
-This implementation was tested in LAMMPS 2 Aug 2023 version.  
+This implementation was tested in **LAMMPS 2 Aug 2023 version**.  
 It may not work in some environments/versions.  
 
 [1] https://arxiv.org/abs/2501.11297  
